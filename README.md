@@ -154,6 +154,20 @@ Notable: the model correctly distinguishes that the wizard chess set came from c
 
 The model cites evidence from all 3 target chunks and produces a correct, well-structured answer within 503 completion tokens.
 
+## Hypothesis: Just Pass More Context
+
+In this experiment, we used only 38 chunks (~9,400 words) — just 10% of the book. But Nemotron 9B has a 32,768-token context window. Based on the measured tokenization rate of 1.46 tokens/word (English), the safe upper limit is approximately **19,000 words (76 chunks, 19% of the book)**, reserving ~4,096 tokens for thinking and output.
+
+| Retrieval strategy | Chunks | Words | Prompt tokens (est.) | Book coverage |
+|---|---|---|---|---|
+| Current (top-15, ±1 window) | 38 | ~9,400 | ~13,700 | 10% |
+| Wider (top-30, ±1 window) | ~76 | ~19,000 | ~27,700 | 19% |
+| Even wider (top-20, ±2 window) | ~80 | ~20,000 | ~29,000 | 20% |
+
+The implication: if you double the retrieval window, the precision required from the retrieval stage drops significantly. You no longer need the target chunk to rank in the top-15 — top-30 is enough, and with ±2 window expansion you get even more surrounding context for free. At this scale, the multi-hop retrieval problem becomes much less critical because the evidence is more likely to be captured by sheer coverage.
+
+In other words, **"build a smarter retriever" may be the wrong optimization target.** When local models can comfortably handle 19,000 words of context and perform multi-hop reasoning across distant passages, the better strategy may simply be: cast a wider net and let the model sort it out.
+
 ## Requirements
 
 - Python 3.12+
