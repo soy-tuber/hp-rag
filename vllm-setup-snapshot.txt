@@ -1,0 +1,159 @@
+============================================================
+vLLM + Nemotron 9B Setup Snapshot
+Captured: 2026-04-05
+============================================================
+
+This configuration produced correct multi-hop RAG answers
+in the hp-rag experiment. Preserve for reproducibility.
+
+============================================================
+HARDWARE
+============================================================
+GPU:            NVIDIA GeForce RTX 5090
+VRAM:           32,607 MiB (32 GB)
+Driver:         595.79
+OS:             Ubuntu 24.04 (WSL2)
+Kernel:         6.6.87.2-microsoft-standard-WSL2
+
+============================================================
+SOFTWARE VERSIONS
+============================================================
+Python:         3.12.3
+uv:             0.10.4
+vLLM:           0.15.1
+PyTorch:        2.9.1+cu128
+CUDA:           12.8
+Transformers:   4.57.6
+FlashInfer:     0.6.1
+mamba_ssm:      not installed (vLLM handles internally)
+causal_conv1d:  not installed (vLLM handles internally)
+
+============================================================
+MODEL
+============================================================
+Model ID:       nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese
+VRAM usage:     ~18 GB (fp16, non-quantized)
+Context window: 32,768 tokens
+Architecture:   Decoder-only Transformer with Mamba2 hybrid layers
+
+============================================================
+ARCHITECTURE: Gateway + vLLM
+============================================================
+
+  Port 8000 (nemotron-gateway.service)
+    │  FastAPI gateway — single entry point
+    │  On-demand model loading, idle auto-shutdown (10 min)
+    │  503 + Retry-After when model swap blocked
+    │
+    └─► Port 8100 (internal vLLM process)
+         vLLM serve — spawned by gateway as subprocess
+         One model loaded at a time
+
+============================================================
+ACTIVE SERVICE: nemotron-gateway.service
+============================================================
+[Unit]
+Description=Nemotron Unified Gateway
+After=network.target
+
+[Service]
+User=soy
+Type=simple
+WorkingDirectory=/home/soy/nemotron/gateway
+ExecStart=/home/soy/nemotron/gateway/.venv/bin/python /home/soy/nemotron/gateway/gateway.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+
+============================================================
+GATEWAY CONFIG: models.yaml
+============================================================
+default_model: nemotron-9b-japanese
+idle_timeout_minutes: 10
+retry_after_seconds: 300
+
+models:
+  nemotron-9b-japanese:
+    framework: vllm
+    model_id: nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese
+    vram_gb: 18
+    toolcall_rewrite: true
+    extra_args:
+      - --trust-remote-code
+      - --mamba_ssm_cache_dtype
+      - float32
+      - --tool-call-parser
+      - nemotron_json
+      - --tool-parser-plugin
+      - "{parsers}/nemotron_toolcall_parser_streaming.py"
+      - --reasoning-parser
+      - nemotron_nano_v2
+      - --reasoning-parser-plugin
+      - "{parsers}/nemotron_nano_v2_reasoning_parser.py"
+      - --enable-auto-tool-choice
+
+============================================================
+CRITICAL vLLM FLAGS (for this model)
+============================================================
+--trust-remote-code          Required for Nemotron custom code
+--mamba_ssm_cache_dtype float32   Mamba2 hybrid layer cache precision
+--tool-call-parser nemotron_json  Custom tool call parser
+--reasoning-parser nemotron_nano_v2  Enables thinking/reasoning output
+--enable-auto-tool-choice    Auto tool selection
+
+Note: --enable-prefix-caching was used in nemotron-vllm.service
+(currently inactive) but NOT in the gateway config. The gateway
+version (without prefix caching) is what produced the RAG results.
+
+============================================================
+CUSTOM PARSERS (in /home/soy/nemotron/parsers/)
+============================================================
+- nemotron_nano_v2_reasoning_parser.py
+    Extracts <reasoning>...</reasoning> blocks from model output
+    into the reasoning_content field of the API response.
+
+- nemotron_toolcall_parser_streaming.py
+    Streaming parser for Nemotron's tool call JSON format.
+
+- nemotron_tool_parser.py
+    Non-streaming tool call parser.
+
+============================================================
+LEGACY SERVICES (inactive, kept for reference)
+============================================================
+
+--- vllm.service (direct vLLM, no gateway) ---
+ExecStart=/home/soy/nemotron/.venv/bin/vllm serve nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese \
+    --trust-remote-code \
+    --mamba_ssm_cache_dtype float32 \
+    --max-num-seqs 64 \
+    --port 8000 \
+    --reasoning-parser-plugin ./nemotron_nano_v2_reasoning_parser.py \
+    --reasoning-parser nemotron_nano_v2
+
+--- nemotron-vllm.service (direct vLLM with more flags) ---
+ExecStart=/home/soy/nemotron/.venv/bin/vllm serve nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese \
+    --trust-remote-code \
+    --mamba_ssm_cache_dtype float32 \
+    --max-num-seqs 64 \
+    --port 8000 \
+    --tool-call-parser nemotron_json \
+    --tool-parser-plugin nemotron_toolcall_parser_streaming.py \
+    --reasoning-parser nemotron_nano_v2 \
+    --reasoning-parser-plugin nemotron_nano_v2_reasoning_parser.py \
+    --enable-auto-tool-choice \
+    --enable-prefix-caching
+
+============================================================
+RAG EXPERIMENT PARAMETERS (hp-rag, 2026-04-05)
+============================================================
+System prompt: "You are a helpful assistant. Answer the question
+               based ONLY on the provided text excerpts.
+               Be specific and cite evidence from the text."
+Temperature:   0.2
+max_tokens:    4096
+Context size:  38 chunks, 9,394 words, 13,683 prompt tokens
+Result:        Correct answer with 503 completion tokens
