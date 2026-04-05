@@ -168,6 +168,32 @@ The implication: if you double the retrieval window, the precision required from
 
 In other words, **"build a smarter retriever" may be the wrong optimization target.** When local models can comfortably handle 19,000 words of context and perform multi-hop reasoning across distant passages, the better strategy may simply be: cast a wider net and let the model sort it out.
 
+## Why 9B is Enough for RAG
+
+There is a widespread assumption that bigger models (35B, 40B+) produce better results. But for RAG, the value of additional parameters is primarily **more knowledge stored in the weights** — and RAG makes that redundant by design, since knowledge comes from the external database.
+
+What a RAG model actually needs:
+
+1. **Read the provided context accurately** — comprehend 10,000+ words without losing detail
+2. **Reason across passages** — connect evidence from distant chunks into a coherent answer
+3. **Distinguish relevant from irrelevant** — e.g., "the wizard chess set came from Christmas crackers, not from Dumbledore"
+
+Nemotron 9B demonstrated all three in this experiment. The model didn't need to "know" anything about Harry Potter — it read the evidence and reasoned correctly.
+
+Furthermore, a non-quantized 9B model (fp16, ~18GB VRAM) running on a consumer GPU has a critical advantage over larger quantized models:
+
+| | 9B fp16 | 35-40B Q4 |
+|---|---|---|
+| VRAM | ~18GB | ~20-24GB |
+| Weight precision | Full | Lossy |
+| Reasoning quality | Intact | Degraded |
+| Context capacity | Full 32K, large KV cache | Constrained by VRAM budget |
+| Throughput | Fast | Slower |
+
+Aggressive quantization (Q4/Q5) trades weight precision for size — but precision is exactly what matters for multi-hop reasoning, where the model must track and connect subtle textual cues across long contexts. A clean 9B may outperform a lossy 40B on tasks that demand careful reading over broad knowledge.
+
+**For RAG, the right question is not "how much does the model know?" but "how well does the model read?"**
+
 ## Requirements
 
 - Python 3.12+
