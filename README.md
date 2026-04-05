@@ -109,6 +109,51 @@ For Japanese text (~10,000 chars), expect 1.5–2.0x token inflation due to LLaM
 > Character trigrams + adjacent chunk window + a capable local LLM can solve it
 > with just SQLite and ~50 lines of retrieval code.
 
+## Experimental Results
+
+Full output from the experiment (2026-04-05).
+
+**Model:** `nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese` on vLLM (RTX 5090)
+
+**Query:** "What gift did Dumbledore give Harry for Christmas?"
+
+**Context passed:** 38 chunks (9,394 words), ordered by chapter/seq. All 3 target chunks (260, 261, 391) present.
+
+### Token consumption
+
+| Item | Tokens |
+|------|--------|
+| prompt_tokens | 13,683 |
+| completion_tokens | 503 |
+| **total_tokens** | **14,186** |
+
+### Thinking (reasoning_content)
+
+> We need to answer based only on provided text excerpts. The question: "What gift did Dumbledore give Harry for Christmas?" We need to find evidence in the text. Let's scan.
+>
+> In Chapter 12, passage 10: "Harry pulled the cloak over his head and his reflection vanished completely. \`There's a note!\` said Ron suddenly. \`A note fell out of it!\` Harry pulled off the cloak and seized the letter. Written in narrow, loopy writing he had never seen before were the following words: Your father left this in my possession before he died. It is time it was returned to you. Use it well. A Very Merry Christmas to you. There was no signature."
+>
+> So Dumbledore gave Harry an invisibility cloak for Christmas. Also maybe a note. The gift is the invisibility cloak. Also maybe a note. The question asks "What gift did Dumbledore give Harry for Christmas?" Answer: an invisibility cloak. Provide evidence: passage 10 describes the cloak and note. Also earlier passage 12 mentions "Harry's new wizard chess set" but that's from crackers, not Dumbledore. So answer: Dumbledore gave Harry an invisibility cloak (and a note). Provide evidence.
+
+Notable: the model correctly distinguishes that the wizard chess set came from crackers, not from Dumbledore.
+
+### Answer (content)
+
+> **Answer:** Dumbledore gave Harry an invisibility cloak for Christmas.
+>
+> **Evidence from the text:**
+> - In Chapter 12, passage 10, after Harry unwraps a small parcel, he finds a "thick, hand-knitted sweater in emerald green" and a box of homemade fudge, but the **real gift** is described later:
+>   > "Harry pulled the cloak around his shoulders and Ron gave a yell. \`It is! Look down!\` Harry looked down at his feet, but they were gone. He dashed to the mirror. Sure enough, his reflection looked back at him, just his head suspended in midair, his body completely invisible. He pulled the cloak over his head and his reflection vanished completely."
+>
+> - The same passage also mentions a note that fell out of the parcel:
+>   > "Your father left this in my possession before he died. It is time it was returned to you. Use it well. A Very Merry Christmas to you."
+>
+> - In Chapter 17, Ron confirms: "D'you think he meant you to do it? Sending you your father's cloak and everything?"
+>
+> Thus, Dumbledore presented Harry with an invisibility cloak (and a note) as his Christmas gift.
+
+The model cites evidence from all 3 target chunks and produces a correct, well-structured answer within 503 completion tokens.
+
 ## Requirements
 
 - Python 3.12+
