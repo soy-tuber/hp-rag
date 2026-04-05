@@ -1,0 +1,3607 @@
+[
+  {
+    "phrase": "Harry",
+    "frequency": 1497,
+    "chapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Ron",
+    "frequency": 426,
+    "chapters": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Hagrid",
+    "frequency": 362,
+    "chapters": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Hermione",
+    "frequency": 203,
+    "chapters": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Dudley",
+    "frequency": 152,
+    "chapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      17
+    ]
+  },
+  {
+    "phrase": "Snape",
+    "frequency": 146,
+    "chapters": [
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Neville",
+    "frequency": 124,
+    "chapters": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Malfoy",
+    "frequency": 124,
+    "chapters": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      17
+    ]
+  },
+  {
+    "phrase": "Uncle Vernon",
+    "frequency": 121,
+    "chapters": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      12,
+      17
+    ]
+  },
+  {
+    "phrase": "Dumbledore",
+    "frequency": 113,
+    "chapters": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Professor McGonagall",
+    "frequency": 98,
+    "chapters": [
+      1,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Quirrell",
+    "frequency": 90,
+    "chapters": [
+      7,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Filch",
+    "frequency": 61,
+    "chapters": [
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "phrase": "Dursleys",
+    "frequency": 60,
+    "chapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12,
+      16
+    ]
+  },
+  {
+    "phrase": "Aunt Petunia",
+    "frequency": 56,
+    "chapters": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      12,
+      17
+    ]
+  },
+  {
+    "phrase": "Gryffindor",
+    "frequency": 53,
+    "chapters": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Stone",
+    "frequency": 50,
+    "chapters": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Hogwarts",
+    "frequency": 47,
+    "chapters": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Wood",
+    "frequency": 44,
+    "chapters": [
+      9,
+      10,
+      11,
+      13,
+      15
+    ]
+  },
+  {
+    "phrase": "Slytherin",
+    "frequency": 41,
+    "chapters": [
+      5,
+      7,
+      9,
+      11,
+      13,
+      14,
+      15,
+      17
+    ]
+  },
+  {
+    "phrase": "Potter",
+    "frequency": 38,
+    "chapters": [
+      1,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Mr. Dursley",
+    "frequency": 34,
+    "chapters": [
+      1,
+      2
+    ]
+  },
+  {
+    "phrase": "Percy",
+    "frequency": 33,
+    "chapters": [
+      6,
+      7,
+      10,
+      12,
+      17
+    ]
+  },
+  {
+    "phrase": "Voldemort",
+    "frequency": 31,
+    "chapters": [
+      1,
+      4,
+      6,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Goyle",
+    "frequency": 28,
+    "chapters": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Fred",
+    "frequency": 25,
+    "chapters": [
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15
+    ]
+  },
+  {
+    "phrase": "Norbert",
+    "frequency": 25,
+    "chapters": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "phrase": "Professor Quirrell",
+    "frequency": 24,
+    "chapters": [
+      5,
+      7,
+      8,
+      10,
+      11,
+      14,
+      17
+    ]
+  },
+  {
+    "phrase": "George",
+    "frequency": 24,
+    "chapters": [
+      6,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15
+    ]
+  },
+  {
+    "phrase": "Crabbe",
+    "frequency": 24,
+    "chapters": [
+      6,
+      8,
+      9,
+      10,
+      12,
+      13
+    ]
+  },
+  {
+    "phrase": "Harry Potter",
+    "frequency": 23,
+    "chapters": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      14,
+      15,
+      17
+    ]
+  },
+  {
+    "phrase": "Quidditch",
+    "frequency": 23,
+    "chapters": [
+      5,
+      6,
+      9,
+      10,
+      11,
+      13,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Great Hall",
+    "frequency": 23,
+    "chapters": [
+      7,
+      8,
+      10,
+      11,
+      12,
+      17
+    ]
+  },
+  {
+    "phrase": "Professor Dumbledore",
+    "frequency": 22,
+    "chapters": [
+      1,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Gringotts",
+    "frequency": 22,
+    "chapters": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Mr. Ollivander",
+    "frequency": 22,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Charlie",
+    "frequency": 22,
+    "chapters": [
+      6,
+      8,
+      9,
+      12,
+      14
+    ]
+  },
+  {
+    "phrase": "Fang",
+    "frequency": 22,
+    "chapters": [
+      8,
+      14,
+      15
+    ]
+  },
+  {
+    "phrase": "Quaffle",
+    "frequency": 22,
+    "chapters": [
+      10,
+      11
+    ]
+  },
+  {
+    "phrase": "Sorcerer",
+    "frequency": 21,
+    "chapters": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Mrs. Dursley",
+    "frequency": 19,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Snitch",
+    "frequency": 19,
+    "chapters": [
+      10,
+      11,
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Madam Pomfrey",
+    "frequency": 18,
+    "chapters": [
+      1,
+      9,
+      14,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "London",
+    "frequency": 18,
+    "chapters": [
+      3,
+      5,
+      6,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Hermione Granger",
+    "frequency": 18,
+    "chapters": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      15
+    ]
+  },
+  {
+    "phrase": "Ronan",
+    "frequency": 18,
+    "chapters": [
+      15
+    ]
+  },
+  {
+    "phrase": "Muggles",
+    "frequency": 17,
+    "chapters": [
+      1,
+      5,
+      6,
+      9,
+      14,
+      17
+    ]
+  },
+  {
+    "phrase": "Hufflepuff",
+    "frequency": 17,
+    "chapters": [
+      5,
+      7,
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Mrs. Norris",
+    "frequency": 17,
+    "chapters": [
+      8,
+      9,
+      12,
+      16
+    ]
+  },
+  {
+    "phrase": "Nimbus",
+    "frequency": 17,
+    "chapters": [
+      9,
+      10,
+      11,
+      13
+    ]
+  },
+  {
+    "phrase": "Privet Drive",
+    "frequency": 16,
+    "chapters": [
+      1,
+      2,
+      3,
+      10,
+      12
+    ]
+  },
+  {
+    "phrase": "Thousand",
+    "frequency": 16,
+    "chapters": [
+      5,
+      9,
+      10,
+      11,
+      13
+    ]
+  },
+  {
+    "phrase": "Madam Hooch",
+    "frequency": 16,
+    "chapters": [
+      7,
+      9,
+      11
+    ]
+  },
+  {
+    "phrase": "Leaky Cauldron",
+    "frequency": 15,
+    "chapters": [
+      5,
+      7,
+      17
+    ]
+  },
+  {
+    "phrase": "Hedwig",
+    "frequency": 15,
+    "chapters": [
+      6,
+      8,
+      14,
+      16
+    ]
+  },
+  {
+    "phrase": "Weasleys",
+    "frequency": 15,
+    "chapters": [
+      6,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "phrase": "Fluffy",
+    "frequency": 15,
+    "chapters": [
+      11,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "phrase": "Flamel",
+    "frequency": 15,
+    "chapters": [
+      12,
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Mr. Potter",
+    "frequency": 14,
+    "chapters": [
+      4,
+      5,
+      15
+    ]
+  },
+  {
+    "phrase": "Seamus",
+    "frequency": 14,
+    "chapters": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "phrase": "Professor Flitwick",
+    "frequency": 14,
+    "chapters": [
+      8,
+      9,
+      10,
+      12,
+      14,
+      16
+    ]
+  },
+  {
+    "phrase": "Bane",
+    "frequency": 14,
+    "chapters": [
+      15,
+      16
+    ]
+  },
+  {
+    "phrase": "Firenze",
+    "frequency": 14,
+    "chapters": [
+      15,
+      16
+    ]
+  },
+  {
+    "phrase": "Weasley twins",
+    "frequency": 13,
+    "chapters": [
+      7,
+      8,
+      10,
+      11,
+      12,
+      16
+    ]
+  },
+  {
+    "phrase": "Professor",
+    "frequency": 13,
+    "chapters": [
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "phrase": "McGonagall",
+    "frequency": 12,
+    "chapters": [
+      1,
+      7,
+      8,
+      9,
+      10,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Magic",
+    "frequency": 12,
+    "chapters": [
+      5,
+      6,
+      8,
+      14,
+      16
+    ]
+  },
+  {
+    "phrase": "Weasley",
+    "frequency": 12,
+    "chapters": [
+      8,
+      10,
+      12,
+      13,
+      16
+    ]
+  },
+  {
+    "phrase": "Potters",
+    "frequency": 11,
+    "chapters": [
+      1,
+      12
+    ]
+  },
+  {
+    "phrase": "You-Know-Who",
+    "frequency": 11,
+    "chapters": [
+      1,
+      4,
+      6,
+      15,
+      16
+    ]
+  },
+  {
+    "phrase": "Piers",
+    "frequency": 11,
+    "chapters": [
+      2
+    ]
+  },
+  {
+    "phrase": "Griphook",
+    "frequency": 11,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Slytherins",
+    "frequency": 11,
+    "chapters": [
+      8,
+      9,
+      11,
+      12,
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Lee Jordan",
+    "frequency": 10,
+    "chapters": [
+      6,
+      9,
+      11,
+      16
+    ]
+  },
+  {
+    "phrase": "George Weasley",
+    "frequency": 10,
+    "chapters": [
+      6,
+      9,
+      11,
+      12,
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Draco Malfoy",
+    "frequency": 10,
+    "chapters": [
+      6,
+      8,
+      9,
+      12,
+      15,
+      17
+    ]
+  },
+  {
+    "phrase": "Dean",
+    "frequency": 10,
+    "chapters": [
+      7,
+      9,
+      11
+    ]
+  },
+  {
+    "phrase": "Christmas",
+    "frequency": 10,
+    "chapters": [
+      12,
+      13,
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Scabbers",
+    "frequency": 9,
+    "chapters": [
+      6,
+      7,
+      12
+    ]
+  },
+  {
+    "phrase": "Nicolas Flamel",
+    "frequency": 9,
+    "chapters": [
+      6,
+      11,
+      12,
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Ravenclaw",
+    "frequency": 9,
+    "chapters": [
+      6,
+      7,
+      17
+    ]
+  },
+  {
+    "phrase": "High Table",
+    "frequency": 9,
+    "chapters": [
+      7,
+      9,
+      12,
+      17
+    ]
+  },
+  {
+    "phrase": "Seeker",
+    "frequency": 9,
+    "chapters": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "phrase": "Fat Lady",
+    "frequency": 9,
+    "chapters": [
+      9,
+      10,
+      12
+    ]
+  },
+  {
+    "phrase": "Bludger",
+    "frequency": 9,
+    "chapters": [
+      10,
+      11,
+      13
+    ]
+  },
+  {
+    "phrase": "Mrs. Figg",
+    "frequency": 8,
+    "chapters": [
+      2,
+      3
+    ]
+  },
+  {
+    "phrase": "Madam Malkin",
+    "frequency": 8,
+    "chapters": [
+      5,
+      6
+    ]
+  },
+  {
+    "phrase": "King",
+    "frequency": 8,
+    "chapters": [
+      5,
+      6,
+      17
+    ]
+  },
+  {
+    "phrase": "Every Flavor Beans",
+    "frequency": 8,
+    "chapters": [
+      6,
+      12,
+      17
+    ]
+  },
+  {
+    "phrase": "Chocolate Frogs",
+    "frequency": 8,
+    "chapters": [
+      6,
+      12
+    ]
+  },
+  {
+    "phrase": "Professor Snape",
+    "frequency": 8,
+    "chapters": [
+      7,
+      8,
+      12,
+      14,
+      17
+    ]
+  },
+  {
+    "phrase": "Petunia",
+    "frequency": 7,
+    "chapters": [
+      1,
+      3
+    ]
+  },
+  {
+    "phrase": "Albus Dumbledore",
+    "frequency": 7,
+    "chapters": [
+      1,
+      7,
+      12
+    ]
+  },
+  {
+    "phrase": "Keeper",
+    "frequency": 7,
+    "chapters": [
+      4,
+      10
+    ]
+  },
+  {
+    "phrase": "Ministry",
+    "frequency": 7,
+    "chapters": [
+      5,
+      14,
+      16
+    ]
+  },
+  {
+    "phrase": "Diagon Alley",
+    "frequency": 7,
+    "chapters": [
+      5,
+      6
+    ]
+  },
+  {
+    "phrase": "Gryffindor common room",
+    "frequency": 7,
+    "chapters": [
+      7,
+      9,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "phrase": "Flitwick",
+    "frequency": 7,
+    "chapters": [
+      8,
+      10,
+      16
+    ]
+  },
+  {
+    "phrase": "Gryffindors",
+    "frequency": 7,
+    "chapters": [
+      8,
+      11,
+      13,
+      15
+    ]
+  },
+  {
+    "phrase": "Bludgers",
+    "frequency": 7,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Flint",
+    "frequency": 7,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Devil",
+    "frequency": 7,
+    "chapters": [
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Snare",
+    "frequency": 7,
+    "chapters": [
+      16,
+      17
+    ]
+  },
+  {
+    "phrase": "Muggle",
+    "frequency": 6,
+    "chapters": [
+      1,
+      4,
+      7,
+      17
+    ]
+  },
+  {
+    "phrase": "Vernon",
+    "frequency": 6,
+    "chapters": [
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "phrase": "Muggle world",
+    "frequency": 6,
+    "chapters": [
+      5,
+      6,
+      17
+    ]
+  },
+  {
+    "phrase": "Bill",
+    "frequency": 6,
+    "chapters": [
+      6,
+      12
+    ]
+  },
+  {
+    "phrase": "Dark Arts",
+    "frequency": 6,
+    "chapters": [
+      6,
+      7,
+      8,
+      12,
+      13,
+      16
+    ]
+  },
+  {
+    "phrase": "Bloody Baron",
+    "frequency": 6,
+    "chapters": [
+      7,
+      9,
+      10,
+      16
+    ]
+  },
+  {
+    "phrase": "Remembrall",
+    "frequency": 6,
+    "chapters": [
+      9,
+      10
+    ]
+  },
+  {
+    "phrase": "Gryffindor tower",
+    "frequency": 6,
+    "chapters": [
+      9,
+      10,
+      12,
+      13
+    ]
+  },
+  {
+    "phrase": "Chasers",
+    "frequency": 6,
+    "chapters": [
+      10,
+      11
+    ]
+  },
+  {
+    "phrase": "Fred Weasley",
+    "frequency": 6,
+    "chapters": [
+      11,
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Mirror",
+    "frequency": 6,
+    "chapters": [
+      12,
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Elixir",
+    "frequency": 6,
+    "chapters": [
+      13,
+      15,
+      17
+    ]
+  },
+  {
+    "phrase": "Stonewall High",
+    "frequency": 5,
+    "chapters": [
+      3,
+      4
+    ]
+  },
+  {
+    "phrase": "Saturday",
+    "frequency": 5,
+    "chapters": [
+      3,
+      11,
+      14
+    ]
+  },
+  {
+    "phrase": "Halloween",
+    "frequency": 5,
+    "chapters": [
+      4,
+      11,
+      15,
+      17
+    ]
+  },
+  {
+    "phrase": "Underground",
+    "frequency": 5,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Daily Prophet",
+    "frequency": 5,
+    "chapters": [
+      5,
+      6,
+      8
+    ]
+  },
+  {
+    "phrase": "Muggle families",
+    "frequency": 5,
+    "chapters": [
+      5,
+      6,
+      8
+    ]
+  },
+  {
+    "phrase": "Ginny",
+    "frequency": 5,
+    "chapters": [
+      6,
+      17
+    ]
+  },
+  {
+    "phrase": "Chocolate Frog",
+    "frequency": 5,
+    "chapters": [
+      6,
+      7,
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Romania",
+    "frequency": 5,
+    "chapters": [
+      6,
+      8,
+      12,
+      14
+    ]
+  },
+  {
+    "phrase": "Gryffindor table",
+    "frequency": 5,
+    "chapters": [
+      7,
+      9,
+      17
+    ]
+  },
+  {
+    "phrase": "Seamus Finnigan",
+    "frequency": 5,
+    "chapters": [
+      8,
+      10,
+      11
+    ]
+  },
+  {
+    "phrase": "Parvati Patil",
+    "frequency": 5,
+    "chapters": [
+      9,
+      10,
+      13
+    ]
+  },
+  {
+    "phrase": "Longbottom",
+    "frequency": 5,
+    "chapters": [
+      9,
+      13,
+      15
+    ]
+  },
+  {
+    "phrase": "Peeves",
+    "frequency": 5,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Miss Granger",
+    "frequency": 5,
+    "chapters": [
+      10,
+      15,
+      17
+    ]
+  },
+  {
+    "phrase": "Quidditch match",
+    "frequency": 5,
+    "chapters": [
+      12,
+      13,
+      14,
+      17
+    ]
+  },
+  {
+    "phrase": "Lily",
+    "frequency": 4,
+    "chapters": [
+      1,
+      4
+    ]
+  },
+  {
+    "phrase": "September",
+    "frequency": 4,
+    "chapters": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "phrase": "July",
+    "frequency": 4,
+    "chapters": [
+      3,
+      4,
+      8
+    ]
+  },
+  {
+    "phrase": "Mr. H. Potter",
+    "frequency": 4,
+    "chapters": [
+      3,
+      4
+    ]
+  },
+  {
+    "phrase": "Doris Crockford",
+    "frequency": 4,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Apothecary",
+    "frequency": 4,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Cross",
+    "frequency": 4,
+    "chapters": [
+      5,
+      6
+    ]
+  },
+  {
+    "phrase": "Bettie Bott",
+    "frequency": 4,
+    "chapters": [
+      6,
+      17
+    ]
+  },
+  {
+    "phrase": "Headless Nick",
+    "frequency": 4,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Slytherin table",
+    "frequency": 4,
+    "chapters": [
+      7,
+      9,
+      17
+    ]
+  },
+  {
+    "phrase": "Great Uncle Algie",
+    "frequency": 4,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Herbology",
+    "frequency": 4,
+    "chapters": [
+      8,
+      14,
+      16
+    ]
+  },
+  {
+    "phrase": "Professor Sprout",
+    "frequency": 4,
+    "chapters": [
+      8,
+      14,
+      16
+    ]
+  },
+  {
+    "phrase": "Quidditch cup",
+    "frequency": 4,
+    "chapters": [
+      9,
+      10,
+      12
+    ]
+  },
+  {
+    "phrase": "Quidditch field",
+    "frequency": 4,
+    "chapters": [
+      10,
+      11
+    ]
+  },
+  {
+    "phrase": "Marcus Flint",
+    "frequency": 4,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Mrs. Weasley",
+    "frequency": 4,
+    "chapters": [
+      12,
+      17
+    ]
+  },
+  {
+    "phrase": "Norwegian Ridgeback",
+    "frequency": 4,
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "phrase": "Trevor",
+    "frequency": 4,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "Nicolas",
+    "frequency": 4,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "Kent",
+    "frequency": 3,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "James Potter",
+    "frequency": 3,
+    "chapters": [
+      1,
+      4
+    ]
+  },
+  {
+    "phrase": "Harry woke",
+    "frequency": 3,
+    "chapters": [
+      2,
+      6
+    ]
+  },
+  {
+    "phrase": "VCR",
+    "frequency": 3,
+    "chapters": [
+      2,
+      3
+    ]
+  },
+  {
+    "phrase": "Snowy",
+    "frequency": 3,
+    "chapters": [
+      2,
+      5
+    ]
+  },
+  {
+    "phrase": "yelled Uncle Vernon",
+    "frequency": 3,
+    "chapters": [
+      3,
+      4
+    ]
+  },
+  {
+    "phrase": "Friday",
+    "frequency": 3,
+    "chapters": [
+      3,
+      8
+    ]
+  },
+  {
+    "phrase": "Monday",
+    "frequency": 3,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Dursley",
+    "frequency": 3,
+    "chapters": [
+      4
+    ]
+  },
+  {
+    "phrase": "Keys",
+    "frequency": 3,
+    "chapters": [
+      4
+    ]
+  },
+  {
+    "phrase": "HOGWARTS SCHOOL",
+    "frequency": 3,
+    "chapters": [
+      4,
+      5
+    ]
+  },
+  {
+    "phrase": "WITCHCRAFT",
+    "frequency": 3,
+    "chapters": [
+      4,
+      5
+    ]
+  },
+  {
+    "phrase": "Wizardry",
+    "frequency": 3,
+    "chapters": [
+      4,
+      12,
+      13
+    ]
+  },
+  {
+    "phrase": "Tap",
+    "frequency": 3,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Knuts",
+    "frequency": 3,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Thousand Magical Herbs",
+    "frequency": 3,
+    "chapters": [
+      5,
+      8,
+      14
+    ]
+  },
+  {
+    "phrase": "Fungi",
+    "frequency": 3,
+    "chapters": [
+      5,
+      8,
+      14
+    ]
+  },
+  {
+    "phrase": "Mr. Harry Potter",
+    "frequency": 3,
+    "chapters": [
+      5,
+      17
+    ]
+  },
+  {
+    "phrase": "Hello",
+    "frequency": 3,
+    "chapters": [
+      5,
+      6
+    ]
+  },
+  {
+    "phrase": "Hagrid gruffly",
+    "frequency": 3,
+    "chapters": [
+      5,
+      11
+    ]
+  },
+  {
+    "phrase": "Vol-",
+    "frequency": 3,
+    "chapters": [
+      5,
+      15,
+      17
+    ]
+  },
+  {
+    "phrase": "Lee",
+    "frequency": 3,
+    "chapters": [
+      6,
+      11
+    ]
+  },
+  {
+    "phrase": "Agrippa",
+    "frequency": 3,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Morgana",
+    "frequency": 3,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Hannah",
+    "frequency": 3,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Sorting Hat",
+    "frequency": 3,
+    "chapters": [
+      7,
+      13
+    ]
+  },
+  {
+    "phrase": "Sir Nicholas",
+    "frequency": 3,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Percy Weasley",
+    "frequency": 3,
+    "chapters": [
+      7,
+      12
+    ]
+  },
+  {
+    "phrase": "Mr. Filch",
+    "frequency": 3,
+    "chapters": [
+      7,
+      15
+    ]
+  },
+  {
+    "phrase": "Professor Binns",
+    "frequency": 3,
+    "chapters": [
+      8,
+      16
+    ]
+  },
+  {
+    "phrase": "Malfay",
+    "frequency": 3,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Oliver Wood",
+    "frequency": 3,
+    "chapters": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "phrase": "Gryffindor team",
+    "frequency": 3,
+    "chapters": [
+      9,
+      13
+    ]
+  },
+  {
+    "phrase": "Curse",
+    "frequency": 3,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Three Chasers",
+    "frequency": 3,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Golden Snitch",
+    "frequency": 3,
+    "chapters": [
+      10,
+      11
+    ]
+  },
+  {
+    "phrase": "Seekers",
+    "frequency": 3,
+    "chapters": [
+      10,
+      11
+    ]
+  },
+  {
+    "phrase": "England",
+    "frequency": 3,
+    "chapters": [
+      10,
+      16
+    ]
+  },
+  {
+    "phrase": "Quidditch practice",
+    "frequency": 3,
+    "chapters": [
+      10,
+      13
+    ]
+  },
+  {
+    "phrase": "Johnson",
+    "frequency": 3,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Angelina",
+    "frequency": 3,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Restricted Section",
+    "frequency": 3,
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "phrase": "Merry Christmas",
+    "frequency": 3,
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "phrase": "Christmas dinner",
+    "frequency": 3,
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "phrase": "Perenelle",
+    "frequency": 3,
+    "chapters": [
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Severus",
+    "frequency": 3,
+    "chapters": [
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "Potter boy",
+    "frequency": 3,
+    "chapters": [
+      15
+    ]
+  },
+  {
+    "phrase": "Rejoice",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Mrs. Next Door",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Yorkshire",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Dundee",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Bonfire Night",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Britain",
+    "frequency": 2,
+    "chapters": [
+      1,
+      14
+    ]
+  },
+  {
+    "phrase": "Owls",
+    "frequency": 2,
+    "chapters": [
+      1,
+      6
+    ]
+  },
+  {
+    "phrase": "Mrs. Dursley stiffly",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Howard",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Put-Outer",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "dear Professor",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Dedalus Diggle",
+    "frequency": 2,
+    "chapters": [
+      1,
+      5
+    ]
+  },
+  {
+    "phrase": "Muggle sweet",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "James",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Albus",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Harry Potter day",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "CarA",
+    "frequency": 2,
+    "chapters": [
+      1,
+      6
+    ]
+  },
+  {
+    "phrase": "Professor McGonagall bent",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "silver Put-Outer",
+    "frequency": 2,
+    "chapters": [
+      1
+    ]
+  },
+  {
+    "phrase": "Tibbles",
+    "frequency": 2,
+    "chapters": [
+      2
+    ]
+  },
+  {
+    "phrase": "Mr. Paws",
+    "frequency": 2,
+    "chapters": [
+      2
+    ]
+  },
+  {
+    "phrase": "Tufty",
+    "frequency": 2,
+    "chapters": [
+      2
+    ]
+  },
+  {
+    "phrase": "phone Marge",
+    "frequency": 2,
+    "chapters": [
+      2
+    ]
+  },
+  {
+    "phrase": "Dinky Duddydums",
+    "frequency": 2,
+    "chapters": [
+      2
+    ]
+  },
+  {
+    "phrase": "Piers Polkiss",
+    "frequency": 2,
+    "chapters": [
+      2,
+      3
+    ]
+  },
+  {
+    "phrase": "Brazil",
+    "frequency": 2,
+    "chapters": [
+      2
+    ]
+  },
+  {
+    "phrase": "Smeltings",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Stonewall",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Aunt Petunia burst",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Ickle Dudleykins",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Smelting stick",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Cupboard",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Stairs",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Privet Drive Little Whinging Surrey",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "tank Dudley",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Tulips",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Railview Hotel Cokeworth Harry",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Tuesday",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Icy sea spray",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Thirty seconds",
+    "frequency": 2,
+    "chapters": [
+      3
+    ]
+  },
+  {
+    "phrase": "Happy Birthday Harry",
+    "frequency": 2,
+    "chapters": [
+      4
+    ]
+  },
+  {
+    "phrase": "Rubeus Hagrid",
+    "frequency": 2,
+    "chapters": [
+      4,
+      5
+    ]
+  },
+  {
+    "phrase": "Sony",
+    "frequency": 2,
+    "chapters": [
+      4
+    ]
+  },
+  {
+    "phrase": "Merlin",
+    "frequency": 2,
+    "chapters": [
+      4,
+      6
+    ]
+  },
+  {
+    "phrase": "Wizards",
+    "frequency": 2,
+    "chapters": [
+      4,
+      5
+    ]
+  },
+  {
+    "phrase": "Gallopin",
+    "frequency": 2,
+    "chapters": [
+      4
+    ]
+  },
+  {
+    "phrase": "Gorgons",
+    "frequency": 2,
+    "chapters": [
+      4
+    ]
+  },
+  {
+    "phrase": "great Muggle",
+    "frequency": 2,
+    "chapters": [
+      4
+    ]
+  },
+  {
+    "phrase": "Wizard",
+    "frequency": 2,
+    "chapters": [
+      4,
+      9
+    ]
+  },
+  {
+    "phrase": "Dark Side",
+    "frequency": 2,
+    "chapters": [
+      4,
+      16
+    ]
+  },
+  {
+    "phrase": "Vol",
+    "frequency": 2,
+    "chapters": [
+      4
+    ]
+  },
+  {
+    "phrase": "Same night",
+    "frequency": 2,
+    "chapters": [
+      4
+    ]
+  },
+  {
+    "phrase": "Codswallop",
+    "frequency": 2,
+    "chapters": [
+      4,
+      15
+    ]
+  },
+  {
+    "phrase": "Hogwarts meself",
+    "frequency": 2,
+    "chapters": [
+      4
+    ]
+  },
+  {
+    "phrase": "Uncle Vernon last night",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "boat Uncle Vernon",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Harry sat",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Passersby",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "WIZARDRY UNIFORM First-year students",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Guide",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Transfiguration",
+    "frequency": 2,
+    "chapters": [
+      5,
+      7
+    ]
+  },
+  {
+    "phrase": "Hogwarts business",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Harry shook hands",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Diagon Alley.",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Eeylops Owl Emporium",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Brown",
+    "frequency": 2,
+    "chapters": [
+      5,
+      7
+    ]
+  },
+  {
+    "phrase": "new Nimbus",
+    "frequency": 2,
+    "chapters": [
+      5,
+      10
+    ]
+  },
+  {
+    "phrase": "strange silver instruments Harry",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "moon ....",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "A pair",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "much Harry",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Galleons",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Robes",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "All Occasions",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Gringotts carts.",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Madam",
+    "frequency": 2,
+    "chapters": [
+      5,
+      12
+    ]
+  },
+  {
+    "phrase": "earth Quidditch",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "ice cream Hagrid",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Wizard sport",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Befuddle",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Latest Revenges",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Hair Loss",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Jelly-Legs",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Tongue- Tying",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Professor Vindictus Viridian",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Fine Wands",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "B.C",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "A single wand",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Nice wand",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Yew",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "Oak",
+    "frequency": 2,
+    "chapters": [
+      5,
+      6
+    ]
+  },
+  {
+    "phrase": "Mr. Potter ....",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "He- Who-Must-Not-Be-Named",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "gold Galleons",
+    "frequency": 2,
+    "chapters": [
+      5
+    ]
+  },
+  {
+    "phrase": "August",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Cross station",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "London tomorrow",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Platform",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Heart hammering",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Hogwarts Express",
+    "frequency": 2,
+    "chapters": [
+      6,
+      17
+    ]
+  },
+  {
+    "phrase": "letter P",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Mother",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Prefect",
+    "frequency": 2,
+    "chapters": [
+      6,
+      7
+    ]
+  },
+  {
+    "phrase": "Hogwarts toilet seat.",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Sickles",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "bronze Knuts",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "dark wizard Grindelwald",
+    "frequency": 2,
+    "chapters": [
+      6,
+      13
+    ]
+  },
+  {
+    "phrase": "George reckons",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Bleaaargh",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Twentieth Century",
+    "frequency": 2,
+    "chapters": [
+      6,
+      12
+    ]
+  },
+  {
+    "phrase": "Africa",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Ron darkly",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Firs",
+    "frequency": 2,
+    "chapters": [
+      6
+    ]
+  },
+  {
+    "phrase": "Sorting",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Sorting Ceremony",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Fat Friar",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Their daring",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "chivalry Set Gryffindors",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "patient Hufflepuffis",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Susan",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Terry",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Bulstrode",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Millicent",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Neville Longbottom",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "friends Crabbe",
+    "frequency": 2,
+    "chapters": [
+      7,
+      8
+    ]
+  },
+  {
+    "phrase": "Jell-O",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Ickle Firsties",
+    "frequency": 2,
+    "chapters": [
+      7,
+      9
+    ]
+  },
+  {
+    "phrase": "Baron",
+    "frequency": 2,
+    "chapters": [
+      7,
+      16
+    ]
+  },
+  {
+    "phrase": "Caput Draconis",
+    "frequency": 2,
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "phrase": "Nearly Headless Nick",
+    "frequency": 2,
+    "chapters": [
+      8
+    ]
+  },
+  {
+    "phrase": "Poltergeist",
+    "frequency": 2,
+    "chapters": [
+      8
+    ]
+  },
+  {
+    "phrase": "History",
+    "frequency": 2,
+    "chapters": [
+      8,
+      16
+    ]
+  },
+  {
+    "phrase": "Binns",
+    "frequency": 2,
+    "chapters": [
+      8
+    ]
+  },
+  {
+    "phrase": "Emetic",
+    "frequency": 2,
+    "chapters": [
+      8
+    ]
+  },
+  {
+    "phrase": "Defense Against",
+    "frequency": 2,
+    "chapters": [
+      8,
+      13
+    ]
+  },
+  {
+    "phrase": "Gryffindor House",
+    "frequency": 2,
+    "chapters": [
+      8
+    ]
+  },
+  {
+    "phrase": "Harry anything",
+    "frequency": 2,
+    "chapters": [
+      8
+    ]
+  },
+  {
+    "phrase": "Potions lesson",
+    "frequency": 2,
+    "chapters": [
+      8
+    ]
+  },
+  {
+    "phrase": "GRINGOTTS BREAK-IN LATEST Investigations",
+    "frequency": 2,
+    "chapters": [
+      8
+    ]
+  },
+  {
+    "phrase": "Dark wizards",
+    "frequency": 2,
+    "chapters": [
+      8
+    ]
+  },
+  {
+    "phrase": "Thursday",
+    "frequency": 2,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Dean Thomas",
+    "frequency": 2,
+    "chapters": [
+      9,
+      11
+    ]
+  },
+  {
+    "phrase": "thought Harry",
+    "frequency": 2,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "other Slytherins",
+    "frequency": 2,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Pansy Parkinson",
+    "frequency": 2,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Charlie Weasley",
+    "frequency": 2,
+    "chapters": [
+      9,
+      10
+    ]
+  },
+  {
+    "phrase": "Cleansweep Seven",
+    "frequency": 2,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Malfoys",
+    "frequency": 2,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Malfoy face-to-face",
+    "frequency": 2,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Bogies",
+    "frequency": 2,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "OF BED",
+    "frequency": 2,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Filch cursing",
+    "frequency": 2,
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "phrase": "Professor McGonagall Harry",
+    "frequency": 2,
+    "chapters": [
+      10,
+      15
+    ]
+  },
+  {
+    "phrase": "Bludgers rocket",
+    "frequency": 2,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Beaters",
+    "frequency": 2,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Charms",
+    "frequency": 2,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Hermione snap",
+    "frequency": 2,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Wing-gar-dium Levi-o-sa",
+    "frequency": 2,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Halloween feast",
+    "frequency": 2,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Stick",
+    "frequency": 2,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Make way",
+    "frequency": 2,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Hufflepuffs",
+    "frequency": 2,
+    "chapters": [
+      10,
+      15
+    ]
+  },
+  {
+    "phrase": "Harry sniffed",
+    "frequency": 2,
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "phrase": "Harry time",
+    "frequency": 2,
+    "chapters": [
+      10,
+      17
+    ]
+  },
+  {
+    "phrase": "Quidditch foul",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "World Cup match",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "first Quidditch match",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Seamus pile ketchup",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "President",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Oliver",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Fifteen brooms",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Angelina Johnson",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Adrian Pucey",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "second Bludger",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Gryffindor Beater",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Higgs",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Gryffindor Seeker",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Spinner",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Spinnet",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Bell",
+    "frequency": 2,
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "phrase": "Malfoys cold drawl",
+    "frequency": 2,
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "phrase": "Christmas decorations",
+    "frequency": 2,
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "phrase": "Recent Developments",
+    "frequency": 2,
+    "chapters": [
+      12,
+      13
+    ]
+  },
+  {
+    "phrase": "Madam Pince",
+    "frequency": 2,
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "phrase": "Harry wizard chess",
+    "frequency": 2,
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "phrase": "Muggle chess",
+    "frequency": 2,
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "phrase": "large yellow F",
+    "frequency": 2,
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "phrase": "Except",
+    "frequency": 2,
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "phrase": "Erised",
+    "frequency": 2,
+    "chapters": [
+      13,
+      17
+    ]
+  },
+  {
+    "phrase": "reserve Seeker",
+    "frequency": 2,
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "phrase": "Leg-Locker Curse",
+    "frequency": 2,
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "phrase": "box Hermione",
+    "frequency": 2,
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "phrase": "Mr. Nicolas Flamel",
+    "frequency": 2,
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "phrase": "Snape land",
+    "frequency": 2,
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "phrase": "Snape ....",
+    "frequency": 2,
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "phrase": "A hooded figure",
+    "frequency": 2,
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "phrase": "Madam Pomftey",
+    "frequency": 2,
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "phrase": "next Tuesday",
+    "frequency": 2,
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "phrase": "Easter holidays",
+    "frequency": 2,
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "phrase": "fer Nicolas Flamel",
+    "frequency": 2,
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "phrase": "Great Britain",
+    "frequency": 2,
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "phrase": "Ireland",
+    "frequency": 2,
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "phrase": "From Egg",
+    "frequency": 2,
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "phrase": "Inferno",
+    "frequency": 2,
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "phrase": "A Dragon Keeper",
+    "frequency": 2,
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "phrase": "Wednesday night",
+    "frequency": 2,
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "phrase": "Mr. Longbottom",
+    "frequency": 2,
+    "chapters": [
+      15
+    ]
+  },
+  {
+    "phrase": "Bin lecturin",
+    "frequency": 2,
+    "chapters": [
+      15
+    ]
+  },
+  {
+    "phrase": "Hullo",
+    "frequency": 2,
+    "chapters": [
+      15,
+      16
+    ]
+  },
+  {
+    "phrase": "Quidditch fouls",
+    "frequency": 2,
+    "chapters": [
+      15
+    ]
+  },
+  {
+    "phrase": "Werewolf Code",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "Conduct",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "Elfric",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "Dumbledore down.",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "Fat Lady swung",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "D'you",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "Mr. Baron",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "Dunno",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "NOF Harry",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "Sprout",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "Grab brooms",
+    "frequency": 2,
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "phrase": "Ropes",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "Trust Dumbledore",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "Lord Voldemort",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "Unicorn blood",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "Mr. Ronald Weasley",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "thing Voldemort",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "My brain surprises",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "Slytherin colors",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "Gryffindor house fifty points.",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "Gryffindor house sixty points.",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "phrase": "Body-Bind Curse",
+    "frequency": 2,
+    "chapters": [
+      17
+    ]
+  }
+]
